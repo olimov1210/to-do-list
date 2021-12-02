@@ -1,1 +1,1 @@
-# to-do-list
+# to-do-list for creating list of taks. You can create task by typing your task name and Pressing "add" button or just by pressing enter and when you have done some tasks you can press the checkbox on the right side of your task and you can delete tasks by trach icon on the right. Even if you leave the page and come later, all tasks are as the same as you left, they don't expire even if you leave the page!
