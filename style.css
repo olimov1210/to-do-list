@@ -1,0 +1,81 @@
+body {
+    background-color: cadetblue;
+}
+main {
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f5eeee;
+    min-height: 200px;
+}
+header {
+    text-align: center;
+}
+.title
+{
+    font-family: monospace;
+}
+ul
+{
+    padding: 0px;
+}
+ul li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 20px;
+    font-size: 23px;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0 0 20px gray;
+        box-shadow: 0 0 20px gray;
+}
+.add-button {
+    padding: 3px;
+    width: 50px;
+    border: navajowhite;
+    padding-top: -2px;
+    font-size: 17px;
+    box-shadow: 0 0 10px green;
+}
+.add-button:hover,img:hover
+{
+    cursor: pointer;
+}
+.add-button:focus
+{
+    outline: none;
+}
+.add-button:active
+{
+        box-shadow: 0 0 0px;
+        background-color: #f5eeee;
+}
+.new-task
+{
+    width: 350px;
+    padding: 3px;
+    padding-bottom: 1px;
+    border: none;
+    background-color: #f5eeee;
+    font-size: 17px;
+    border-bottom: 1px solid #613737;
+}
+.new-task:focus
+{
+    outline: none;
+}
+.check-box:hover {
+    cursor: pointer;
+}
+.done {
+    text-decoration: line-through;
+    font-style: italic;
+}
+.icon {
+    height: 16px;
+    width: 17px;
+}
